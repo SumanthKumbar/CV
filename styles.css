@@ -1,0 +1,130 @@
+h2{
+color: #3b6978;
+margin:50px auto 30px;
+}
+
+h3{
+color: #3b6978;
+}
+
+.table-changes{
+  padding-left: 145px;
+}
+
+.middle3{
+  margin-top: 60px;
+}
+
+.main-body{
+  margin : 0 ;
+  text-align: center;
+}
+
+.hobby{
+  margin-bottom:50px;
+}
+
+.heading {
+  margin :0 ;
+  padding-top: 150px;
+  color: #3b6978;
+}
+
+.head-game{
+  margin-bottom: 0px;
+}
+
+.prof{
+  width:25%;
+  margin:0 auto;
+  line-height: 25px;
+  color: #204051;
+}
+
+
+.prog{
+  width:70%;
+  margin:10px auto;
+  line-height: 25px;
+  color: #204051;
+}
+
+
+.paint{
+  width:60%;
+  margin:10px auto;
+  line-height: 25px;
+  color: #204051;
+}
+
+.paint-img{
+  width:380px;
+  height:290px;
+}
+
+
+.game{
+  width:25%;
+  margin:30px auto 0;
+  line-height: 25px;
+  color: #204051;
+}
+
+hr{
+border-style: dotted;
+border-width: 6px 0 0;
+color: #e4e3e3;
+margin:60px auto 60px auto;
+  width:6%;
+}
+
+.hobby{
+  clear:left;
+}
+
+.hill-image{
+margin:0;
+position:absolute;
+bottom : 0;
+left: 240px;
+height: 350px;
+}
+
+.images{
+  width: 284px;
+  height: 284px;
+}
+
+
+
+.title{
+  background-color: #e4e3e3;
+  position:relative;
+  height: 652px;
+}
+
+.btn{
+  background: #84a9ac;
+background-image: -webkit-linear-gradient(top, #84a9ac, #204051);
+background-image: -moz-linear-gradient(top, #84a9ac, #204051);
+background-image: -ms-linear-gradient(top, #84a9ac, #204051);
+background-image: -o-linear-gradient(top, #84a9ac, #204051);
+background-image: linear-gradient(to bottom, #84a9ac, #204051);
+-webkit-border-radius: 13;
+-moz-border-radius: 13;
+border-radius: 13px;
+font-family: Arial;
+color: #ffffff;
+font-size: 20px;
+padding: 9px 20px 10px 20px;
+text-decoration: none;
+}
+.btn:hover{
+  background: #ad9d9d;
+  background-image: -webkit-linear-gradient(top, #ad9d9d, #87556f);
+  background-image: -moz-linear-gradient(top, #ad9d9d, #87556f);
+  background-image: -ms-linear-gradient(top, #ad9d9d, #87556f);
+  background-image: -o-linear-gradient(top, #ad9d9d, #87556f);
+  background-image: linear-gradient(to bottom, #ad9d9d, #87556f);
+  text-decoration: none;
+}
