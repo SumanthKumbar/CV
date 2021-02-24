@@ -1,72 +1,100 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cookie&family=Josefin+Sans:wght@300;400;500&family=Josefin+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="check-box__icon">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </div>
+      <input class="check-box" type="checkbox" name="" value="">
+      <div class="logo-box">
+        <h1 class="logo">AstroScient</h1>
+      </div>
+      <ul class="nav__content__holder">
+        <li class="nav__item"><a class="nav__item__link" href="#">Home</a></li>
+        <li class="nav__item"><a class="nav__item__link" href="#">Work</a></li>
+        <li class="nav__item"><a class="nav__item__link" href="#">Experience</a></li>
+        <li class="nav__item"><a class="nav__item__link" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  <!-- Header Section -->
+    <header class="header">
+      <div class="header__content__holder">
+        <div class="img-box">
 
-<head>
-  <meta charset="utf-8">
-  <title> Sumanth'Profile</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+        </div>
+        <div class="text-box">
+          <h3 class="heading--secondary">Hi there,</h3>
+          <h1 class="heading--primary">I'm Sumanth.</h1>
+          <p class="header__para"><strong>I'm a Web Developper.</strong></p>
+        </div>
+      </div>
+    </header>
+    <section class="section_header">
+        <div class="header__shaper header__shaper-2"></div>
+        <div class="header__shaper header__shaper-3"></div>
+        <div class="text-box-2">
+          <h1 class="heading-primary heading-primary--2">
+            <span class="heading-primary_part heading-primary_part-1">Welcome</span>
+            <span class="heading-primary_part heading-primary_part-2">to my</span>
+            <span class="heading-primary_part heading-primary_part-3">Website.</span>
+          </h1>
+          <h5 class="heaing__tertiary">
+            <span class="heading-primary_part heading-primary_part-4">Curious About me !!</span>
+          </h5 >
+          <a class="btn btn-small" href="#habbit">Lets begin</a>
+        </div>
+    </section>
 
-<body class="main-body">
-  <div class="title">
-    <h1 class="heading">I'm Sumanth</h1>
-    <h3>This is my website</h3>
-    <img class="hill-image" src="http://seanhalpin.io/assets/img/content/home/masthead/land.svg" alt="hill-image">
-  </div>
-  <div class="top-section">
-    <hr>
-    <h2>My Profile</h2>
-    <img class="images" src="http://seanhalpin.io/assets/img/content/home/hello/me.svg" alt="face">
-    <h3>Hi</h3>
-    <p class="prof">I'm Sumanth, student at RV College of Engineering. I have taken Electronics and Communication as my main branch </p>
-    <hr>
-  </div>
-  <h2 class="hobby">My Hobbies</h2>
-  <div class="middle1">
-    <table class="table-changes">
-      <thead>
-        <tr>
-          <th>
-            <h3>Programing</h3>
-          </th>
-          <th>
-            <h3>Painting</h3>
-          </th>
-        </tr>
-        <tr>
-          <td>
-              <img class="images image1" src="https://yellowconnection.com/wp-content/uploads/2019/12/PinClipart.com_snake-charmer-clipart_2691398.png" alt="programming">
-          </td>
-          <td>
-              <img class="paint-img" src="https://www.blueclouddesign.co.za/wp-content/uploads/2016/03/logo-design.png" alt="painting">
-          </td>
-        </tr>
-        <tr>
-          <td>
-              <p class="prog">I like programing, I learnt C-programing as my first programing knowledge. Then I learnt Python. </p>
-          </td>
-          <td>
-            <p class="paint">I love painting, I spent some time to draw and paint, I had participated in some District and State level drawing competition during my school days </p>
-          </td>
-        </tr>
-      </thead>
+    <section  class="section-habbits">
+      <h2 class="heading--sec margin-bottom-medium" id="habbit">Let me tell you about my habbits.</h2>
+      <div class="row box painting-box">
+        <div class="img-text-box col-1-of-3-l">
+          <div class="img-box img-box-hab img-painting-box">
 
-    </table>
+          </div>
+        </div>
+        <div class="text-container col-2-of-3-r">
+          <h3 class="heading--med margin-bottom-small margin-top-smed">Painting</h3>
+          <p class="text painting-text margin-bottom-smed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum incidunt aspernatur provident harum, assumenda ex minima temporibus sit eum accusamus, debitis quos iusto quaerat?</p>
+        </div>
 
-  </div>
-  <div class="middle3">
-    <h3 class="head-game">Gaming</h3>
-    <img class="images game" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRyXPL7W21BNCMKcpHbgMRZyJ3pQ-NUF23GgA&usqp=CAU" alt=" Games">
-    <p class="game">I spent most time in playing games. I love shooting games like PUBG, Call of Duty and Counter Strike in mobile</p>
-    <hr>
-  </div>
-  <div class="bottom-section">
-    <button class="btn" type="button" name="button"><a href="contact.html">Contact</a></button>
-    <br>
-    <a href="">instagram</a>
-    <a href="#">twitter</a>
-    <a href="#">facebook</a>
-  </div>
-</body>
+      </div>
+      <hr class="hor-line">
+      <div class="row box mobile-box">
+        <div class="img-text-box col-1-of-3-r">
+          <div class="img-box img-box-hab img-mobile-box">
 
+          </div>
+        </div>
+        <div class="text-container col-2-of-3-l">
+          <h3 class="heading--med margin-bottom-small margin-top-smed">Customizing mobile home screen setups</h3>
+          <p class="text mobile-text margin-bottom-smed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima magni, aliquid voluptates adipisci rerum dignissimos optio nisi voluptas. Perferendis facilis eum earum, ad architecto id.</p>
+        </div>
+        </div>
+      <hr class="hor-line">
+      <div class="row box coding-box">
+        <div class="img-text-box col-1-of-3-l">
+          <div class="img-box img-box-hab img-coding-box">
+
+          </div>
+        </div>
+        <div class="text-container col-2-of-3-r">
+          <h3 class="heading--med margin-bottom-small  margin-top-smed">Coding</h3>
+          <p class="text coding-text margin-bottom-smed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem vero provident doloribus possimus, ipsum aliquid quas, magnam? Nulla a repellat iure, excepturi!</p>
+        </div>
+      </div>
+      <hr class="hor-line">
+    </section>
+  </body>
 </html>
